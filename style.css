@@ -7,6 +7,8 @@
   text-decoration: none;
   scroll-behavior: smooth;
 }
+
+
 /* Custom Scroll Bar CSS */
 ::-webkit-scrollbar {
     width: 10px;
@@ -496,4 +498,20 @@ footer .text span a:hover{
     font-size: 50px;
     color: #f06292;
   }
+}
+.tombol {
+    padding: 10px 20px;
+    background-color: #f06292; 
+    color: white; /* Warna teks putih */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none; /* Menghilangkan garis bawah */
+    display: inline-block; /* Agar tombol bisa diatur ukuran */
+}
+
+.tombol:hover {
+    background-color: #fff0f9;
 }
